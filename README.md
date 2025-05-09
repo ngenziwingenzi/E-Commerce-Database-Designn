@@ -4,7 +4,7 @@
 This repository contains a comprehensive database schema for an e-commerce platform developed by Power Learn Project Group 214 Cohort 7. The schema includes support for product variants, inventory management, and product attributes.
 
 ## Entity-Relationship Diagram (ERD)
-![E-Commerce Database ERD](https://github.com/alphac137/E-commerce-Database-Design/raw/main/doc/ERD.png)
+![E-Commerce Database ERD](https://github.com/ngenziwingenzi/E-commerce-Database-Design/raw/main/doc/ERD.png)
 
 ## Database Features
 - **Product Management**: Core product information, categorization, and images
@@ -49,26 +49,26 @@ This repository contains a comprehensive database schema for an e-commerce platf
 
 1. Clone this repository:
    ```
-   git clone https://github.com/alphac137/E-commerce-Database-Design.git
+   git clone https://github.com/ngenziwingenzi/E-commerce-Database-Design.git
    cd E-commerce-Database-Design
    ```
 
 2. Execute the SQL files in the following order:
    ```
-   mysql -u alphac137 -p < part1_database_setup.sql
-   mysql -u alphac137 -p < part2_database_setup.sql
-   mysql -u alphac137 -p < part3_database_setup.sql
-   mysql -u alphac137 -p < part4_database_setup.sql
+   mysql -u ngenziwingenzi -p < part1_database_setup.sql
+   mysql -u ngenziwingenzi -p < part2_database_setup.sql
+   mysql -u ngenziwingenzi -p < part3_database_setup.sql
+   mysql -u ngenziwingenzi -p < part4_database_setup.sql
    ```
 
    Alternatively, you can use the combined script:
    ```
-   mysql -u alphac137 -p < ecommerce_complete.sql
+   mysql -u ngenziwingenzi7 -p < ecommerce_complete.sql
    ```
 
 3. Verify the installation:
    ```
-   mysql -u alphac137 -p -e "USE E-commerce-Database-Design; SHOW TABLES;"
+   mysql -u ngenziwingenzi -p -e "USE E-commerce-Database-Design; SHOW TABLES;"
    ```
 
 ## Project Structure
